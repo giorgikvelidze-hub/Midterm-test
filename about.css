@@ -2,12 +2,16 @@ body {
   background-color: #f2f2f2;
 }
 li,
+
 ul {
   display: inline-block;
   margin-left: 20px;
+
 }
+
 a {
   display: inline-block;
+  color: black;
 }
 
 .conteiner {
@@ -19,6 +23,7 @@ a {
   justify-content: space-between;
   margin: 20px auto;
   max-width: 1400px;
+
 }
 
 .hbutton {
@@ -38,16 +43,18 @@ a {
   margin: 0 auto;
   flex-wrap: wrap;
 }
-.img-conteiner {
+.img-conteiner{
   height: 700px;
-
   width: 50%;
+
+
 }
+
 .mainimg {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: left;
 }
 .discription-conteiner {
   width: 50%;
@@ -58,6 +65,9 @@ a {
 .discription-conteiner p {
   display: inline-block;
   font-size: 13px;
+}
+.discription-conteiner img {
+
 }
 .vip2 {
   background-color: #29b24e;
