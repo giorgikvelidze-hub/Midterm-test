@@ -1,8 +1,11 @@
 body {
 background-color: #f2f2f2;
 }
-li 
 ul {
+  list-style: none;
+  padding: 0;
+} 
+li {
   display: inline-block;
   margin-left: 20px;
   font-family: "Trirong", serif;
@@ -70,7 +73,7 @@ a {
   margin: 5px 20px;
 }
 .fonts {
-  color: red;
+  color: gray;
 }
 .list-group-item {
   border: none;
